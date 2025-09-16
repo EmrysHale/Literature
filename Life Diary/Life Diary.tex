@@ -1,0 +1,34 @@
+\documentclass[12pt]{book}
+
+% 控制页面边距
+\usepackage{geometry}
+\geometry{letterpaper, margin=2.5cm}
+
+% 段落首行缩进
+\usepackage {indentfirst}
+\setlength{\parindent}{2.0em} %2em代表首行缩进两个字符
+\setlength{\lineskip}{0.2em} %设置行间距
+\setlength{\parskip}{0.7em} %设置段落间距
+
+\newenvironment{loggentry}[2]% date, heading
+{\noindent\textbf{#1} \qquad \textbf{#2}\vspace{0.2em} \\  \indent}{\vspace{1em}}
+
+\usepackage{ctex}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{loggentry}{2025/5/27}{}
+我是一个特别拧巴d人
+我大概永远学不会赤裸裸地
+去表达自己的需求和情感
+
+我在找一个
+看过我灵魂的废墟
+仍能迎难而上的人
+遍寻未果的话
+此生，我就和自己
+闯过一切苦厄
+\end{loggentry}
+
+\end{document}  
